@@ -1,0 +1,515 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.gues{
+    margin-bottom:30px;
+}
+
+.meating{
+    height: 500px;
+    margin-top: 70px;
+}
+#fpertama{
+  height: 600px;
+  background-image: url(depan.jpg);
+  background-position: 0 -110px ;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+#green{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+#blue{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 70%;
+    border-radius: 15px;
+    filter: opacity(70%);
+    background-color: #28273e;
+   
+}
+#red{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+#fix {
+    z-index: 9999;
+}
+
+#kol{
+    margin: 13px;
+}
+#pict img{
+    height: 150px;
+}
+
+#kol p{
+ font-size: 14px;
+}
+#kaki{
+    margin-top:13px;
+}
+#kaki p{
+    font-size: 16px;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: right;
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.btn-outline-success a{
+    text-decoration: none;
+    color:rgb(18, 14, 14);
+}
+#footer{
+   background-color: #4b4b4b;
+   color: #fff;
+   height: 220px;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   padding-top: 20px;
+   padding-right: 50px;
+}
+#pembungkus{
+    height: 400px;
+    background-color: #262532;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#psatu{
+    height: 250px;
+    width: 270px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0.5);   
+    background-image: url(spa.jpg);
+    background-size: cover;
+    transition: 1s;
+}
+#psatu:hover{
+    transform: scale(1.2); 
+
+}
+#pdua{
+    height: 250px;
+    width: 270px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0.5);   
+    background-image: url(jalan.jpg);
+    background-size: cover;
+    transition: 1s;
+}
+#pdua:hover{
+    transform: scale(1.2); 
+}
+#ptiga{
+    height: 250px;
+    width: 270px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0.5);   
+    background-image: url(kamar1.jpg);
+    background-size: cover;
+    transition: 1s;
+}
+#ptiga:hover{
+    transform: scale(1.2); 
+
+}
+#pempat{
+    height: 250px;
+    width: 270px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0.5);   
+    background-image: url(kamardua.jpg);
+    background-size: cover;
+    transition: 1s;
+}
+#pempat:hover{
+    transform: scale(1.2); 
+}
+.ip input{
+    height: 40px;
+    width: 220px;
+    border-radius: 15px;
+    box-shadow: #d2d1fb ;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0.5); 
+    
+}         
+.ip button{
+    height: 40px;
+    width: 220px;
+    border-radius: 150px;
+    box-shadow: #1512d9 ;
+    background-color: #1512d9;
+    color: white;
+}
+
+#cuk{
+   margin: 15px;
+   height: 100px;
+   
+}
+#a{
+   margin: 15px;
+   height: 100px;
+   background-image:url(sofa.jpg);
+   background-size: cover;
+   background-position: 0 -50px;
+}
+#b{
+   margin: 15px;
+   height: 100px;
+   background-image:url(gym.jpg);
+   background-size: cover;
+   background-position: 0 -20px;
+}
+#c{
+   margin: 15px;
+   height: 100px;
+   background-image:url(tempatmakan.jpg );
+   background-size: cover;
+   background-position: 0 -35px;
+}
+#d{
+   margin: 15px;
+   height: 100px;
+   background-image:url(biliard.jpg);
+   background-size: cover;
+   background-position: 0 -20px;
+}
+#e{
+   margin: 15px;
+   height: 100px;
+   background-image:url(jalan.jpg);
+   background-size: cover;
+   background-position: 0 -150px;
+}
+#f{
+   margin: 15px;
+   height: 100px;
+   background-image:url(tengah.jpg);
+   background-size: cover;
+   background-position: 0 -190px;
+}
+#g{
+   margin: 15px;
+   height: 100px;
+   background-image:url(badminton.jpg);
+   background-size: cover;
+   background-position: 0 -30px;
+}
+#h{
+   margin: 15px;
+   height: 100px;
+   background-image:url(kolamrenang.jpg);
+   background-size: cover;
+}
+#i{
+    margin: 15px;
+    height: 100px;
+    background-image:url(hotelreview.jpg);
+    background-size: cover;
+    background-position: 0 -30px;
+ }
+ #j{
+    margin: 15px;
+    height: 100px;
+    background-image:url(kamar3.jpg);
+    background-size: cover;
+    background-position: 0 -40px;
+ }
+
+
+#locasi{
+    width: 600px;
+    height: 470px;
+    border: 0;
+}
+#lokasi{
+    height: 530px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+#nerby{
+    margin-top: 30px;
+    padding-top: 100px;
+    background-color:  #262532 ;
+    color: white;
+    align-items: center;
+    height: 450px;
+}
+
+#text1{
+    padding-top: 50px;
+}
+
+.komen{
+   
+    display: flex;
+    height: 150px;
+
+}
+.komen img{
+    height: 140px;
+    width: 140px;
+    border-radius:50%;
+}
+.komen2{
+    display: flex;
+    font-size: 15px;
+    padding-left: 20px;
+}
+.komen2 p{
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.komen1{
+ height: 280px;
+ 
+}
+
+.by p{
+    padding-left: 400px;
+}
+.tkomen{
+    font-size: 30px;
+}
+
+
+ /* Aturan CSS untuk layar lebar (desktop) */
+@media screen and (min-width: 1200px) {
+    body {
+      background-color: navy;
+    }
+  }
+  
+
+
+
+
+
+  /* Aturan CSS untuk layar menengah (tablet) */
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    #pembungkus{
+        margin-top: 280px;
+        height: 1200px;
+        width: 1024px;
+        position: relative;
+    }
+    #psatu{
+            height: 390px;
+            width: 480px;
+            border-radius: 15px;
+            box-shadow: 5px 5px 10px 0px rgba(0, 0, 0.5);   
+            background-image: url(spa.jpg);
+            background-size: cover;
+            background-position: 0 -70px;
+    }
+    #pdua{
+        height: 390px;
+        width: 480px;
+        border-radius: 15px;
+        box-shadow: 5px 5px 10px 0px rgba(0, 0, 0.5);   
+        background-image: url(jalan.jpg);
+        background-size: cover;
+        background-position: 0 -90px;
+    }
+    #ptiga{
+        height: 390px;
+        width: 480px;
+        border-radius: 15px;
+        box-shadow: 5px 5px 10px 0px rgba(0, 0, 0.5);   
+        background-image: url(kamar1.jpg);
+        background-size: cover;
+    }
+    #pempat{
+        height: 390px;
+        width: 480px;
+        border-radius: 15px;
+        box-shadow: 5px 5px 10px 0px rgba(0, 0, 0.5);   
+        background-image: url(kamardua.jpg);
+        background-size: cover;
+        background-position: 0 -20px;
+    }
+  }
+  
+
+
+
+
+  /* Aturan CSS untuk layar kecil (ponsel) */
+  @media screen and (max-width: 767px) {
+
+   #fpertama{
+  width: 576px;
+  height: 800px;
+  background-position: 0 2px;
+   }
+
+   #blue{
+    width: 500px;
+    height: 500px;
+   }
+   #red{
+
+    margin: 85px;
+    width: 400px;
+    height: 460px;
+   }
+   
+
+   #locasi{
+    width:550px;
+    height: 270px;
+    border-radius: 10px;
+   }
+   #lokasi{
+    height: 700px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+   #nerby{
+    width: 690px;
+    margin-bottom: 50px;
+    margin-left: 70px;
+    padding-bottom: 70px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0.5); 
+    margin-top: 30px;
+    padding-top: 100px;
+    background-color:  #262532 ;
+    color: white;
+    align-items: center;
+    height: 330px;
+   }
+
+#Pengertian h1{
+    font-size: 28px;
+    font-style: italic;   
+}
+#Pengertian{
+    width: 576px;
+    height: 170px;
+
+}
+
+#pembungkus{
+    margin-top: 280px;
+    height: 1200px;
+    width: 576px;
+    position: relative;
+}
+#psatu{
+        height: 250px;
+        width: 330px;
+        border-radius: 15px;
+        box-shadow: 5px 5px 10px 0px rgba(0, 0, 0.5);   
+        background-image: url(spa.jpg);
+        background-size: cover;
+        background-position: 0 -70px;
+}
+
+#pdua{
+    height: 250px;
+    width: 330px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0.5);   
+    background-image: url(jalan.jpg);
+    background-size: cover;
+    background-position: 0 -90px;
+}
+#ptiga{
+    height: 250px;
+    width: 330px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0.5);   
+    background-image: url(kamar1.jpg);
+    background-size: cover;
+}
+#pempat{
+    height: 250px;
+    width: 330px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0.5);   
+    background-image: url(kamardua.jpg);
+    background-size: cover;
+    background-position: 0 -20px;
+}
+
+#meating {
+    position: relative;
+    height: 700px;
+}
+#row{
+   width: 567px;
+}
+#f{
+    width: 500px;
+}
+#text1{
+    padding-top: 3px;
+    font-size: 15px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+   }
+   #text2{
+    display: none;
+   }
+#pict{
+    
+display: none;    
+}
+#footer{
+    width: 576px;
+}
+#footer p{
+    font-size: 10px;
+}
+#footer h4{
+    font-size: 15px;
+}
+#footer h5{
+    font-size: 15px;
+}
+.komen1{
+    height: 600px;
+
+}
+.tkomen{
+    margin-bottom: 20px;
+}
+#bibi{
+    display: none;
+}
+
+
+  }
